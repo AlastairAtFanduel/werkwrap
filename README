@@ -1,0 +1,32 @@
+GET     # safe
+POST    
+PUT
+DELETE
+
+pickled_dicts, more printable just for simplicity.
+
+places all have:
+   uri
+   rel  #what str
+   meth
+
+service = host.get()    # List of services
+
+"get_name" in service
+for thing in service: 
+    print(thing)
+
+
+
+x.foo2 = service.foo.post()
+y = x.foo2.erm.get()
+
+x['erm']['foo']  for gets
+
+
+REST but more limited, earch can only have one command.  Get has no side effects.
+
+
+x['foo']
+x['foo']
+#What can be cached?
